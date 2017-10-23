@@ -52,7 +52,7 @@
             .links > a {
                 color: #636b6f;
                 padding: 0 25px;
-                font-size: 12px;
+                font-size: 20px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
@@ -79,17 +79,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Contact Saya
                 </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-					<a href="contact">Contact</a>
-					<a href="percakapan">Percakapan</a>
 					
-                </div>
+                <div class="content">
+                    paskaadil@gmail.com
             </div>
         </div>
     </body>
