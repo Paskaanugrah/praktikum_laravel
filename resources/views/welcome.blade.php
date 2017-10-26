@@ -88,7 +88,7 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
 					<a href="contact">Contact</a>
 					<a href="percakapan">Percakapan</a>
-					
+					<a href="template">Templating</a>
                 </div>
             </div>
         </div>

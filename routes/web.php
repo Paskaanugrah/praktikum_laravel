@@ -22,3 +22,15 @@ Route::get('contact', function () {
 Route::get('percakapan', function () {
     return view('percakapan');
 });
+
+Route::get('template', function () {
+    return view('layouts.master');
+});
+
+//Route::get('coba1', function () {
+ //return view('coba1');
+//});
+
+//Route::get('coba2', function () {
+ //return view('coba2');
+//});
