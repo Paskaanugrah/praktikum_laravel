@@ -46,13 +46,13 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 50px;
             }
 
             .links > a {
                 color: #636b6f;
                 padding: 0 25px;
-                font-size: 20px;
+                font-size: 12px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
@@ -66,11 +66,25 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-			 <div class="content">
-			 <div class="title m-b-md">
-				Sedang dalam perbaikan!
-			 </div>
-			</div>
-		</div>
+            @if (Route::has('login'))
+                <div class="top-right links">
+                    @if (Auth::check())
+                        <a href="{{ url('/home') }}">Home</a>
+                    @else
+                        <a href="{{ url('/login') }}">Login</a>
+                        <a href="{{ url('/register') }}">Register</a>
+                    @endif
+                </div>
+            @endif
+
+            <div class="content">
+                <div class="title m-b-md">
+					maintenance!
+                </div>
+                <div class="links">
+					<br><a href="/"> Home </a> <!-- membuat tombol untuk kembali ke welcome -->
+                </div>
+            </div>
+        </div>
     </body>
 </html>

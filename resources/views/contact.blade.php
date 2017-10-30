@@ -52,7 +52,7 @@
             .links > a {
                 color: #636b6f;
                 padding: 0 25px;
-                font-size: 20px;
+                font-size: 12px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
@@ -79,11 +79,14 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Contact Saya
+					Contact
                 </div>
-					
-                <div class="content">
-                    paskaadil@gmail.com
+				<div>
+					<b>Contact saya : paskaadil@gmail.com</b>
+				</div>
+                <div class="links">
+					<br><a href="/"> Home </a> <!-- membuat tombol untuk kembali ke welcome -->
+                </div>
             </div>
         </div>
     </body>

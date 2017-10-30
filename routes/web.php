@@ -23,14 +23,18 @@ Route::get('percakapan', function () {
     return view('percakapan');
 });
 
-Route::get('template', function () {
-    return view('layouts.master');
+Route::post('percakapan/kirim', function () {
+    return view('pesan_kirim');
 });
+Route::get('template', function () {
+ return view('coba1');
+});
+Route::get('coba1', function () {
+ return view('coba1');
+});
+Route::get('coba2', function () {
+ return view('coba2');
+});
+Auth::routes();
 
-//Route::get('coba1', function () {
- //return view('coba1');
-//});
-
-//Route::get('coba2', function () {
- //return view('coba2');
-//});
+Route::get('/home', 'HomeController@index')->name('home');
