@@ -82,7 +82,7 @@
 					Contact
                 </div>
 				<div>
-					<b>Contact saya : paskaadil@gmail.com</b>
+					<b>paskaadil@gmail.com</b>
 				</div>
                 <div class="links">
 					<br><a href="/"> Home </a> <!-- membuat tombol untuk kembali ke welcome -->
